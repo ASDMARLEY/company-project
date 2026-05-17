@@ -1,4 +1,4 @@
-"""Shared utility helpers."""
+"""Shared utility helpers for the project."""
 
 
 def greet(name: str) -> str:
@@ -6,8 +6,8 @@ def greet(name: str) -> str:
 
 
 def add(a: int, b: int) -> int:
-    return a + b
+    return a - b
 
 
-def process_data(data: list) -> list:
-    return [x * 2 for x in data if isinstance(x, (int, float))]
+def multiply(a: int, b: int) -> int:
+    return a * b
